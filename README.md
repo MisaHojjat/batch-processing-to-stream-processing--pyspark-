@@ -25,7 +25,8 @@ The project follows a **three-step ETL process**:
 
 - **Development Environment**: VS Code
   - All scripts were initially developed and tested locally using VS Code.
-  - Linting, debugging, and version control were handled in VS Code.
+  - Linting, debugging were handled in VS Code.
+  - Version control were handeled in Git, Github
 
 - **Production and Testing Environment**: Databricks
   - Scripts were tested and run on Databricks clusters to simulate real-world streaming and batch workloads.(a test script was created to automate and test streaming process)
