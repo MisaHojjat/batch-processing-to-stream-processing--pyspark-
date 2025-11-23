@@ -2,8 +2,6 @@
 
 This project demonstrates batch and streaming data processing using PySpark.
 
-## Modules
-
 1. **Word Count**
    - Batch: `batch_word_count.ipynb`
    - Text files for batch word count
