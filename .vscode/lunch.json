@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "type": "debugpy", 
+      "request": "launch",
+      "name": "Python: Current File",
+      "program": "${input:pythonFile}",
+      "console": "integratedTerminal"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "pythonFile",
+      "type": "pickString", 
+      "description": "Select Python file to debug",
+      "options": [
+        "sample2.py",
+        "samply.py"
+      ]
+    }
+  ]
+}

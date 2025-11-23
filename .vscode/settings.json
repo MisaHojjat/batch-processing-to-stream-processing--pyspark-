@@ -1,0 +1,49 @@
+// {
+//   // Auto-save settings
+//   "files.autoSave": "afterDelay",
+//   "files.autoSaveDelay": 1000,
+
+//   // Disable IntelliSense pop-ups and suggestions
+//   "editor.quickSuggestions": false,
+//   "editor.suggestOnTriggerCharacters": false,
+//   "editor.suggest.showWords": false,
+//   "editor.parameterHints.enabled": false,
+
+//   // Optional: disable auto-closing brackets/quotes/snippets
+//   "editor.autoClosingBrackets": "never",
+//   "editor.autoClosingQuotes": "never",
+//   "editor.snippetSuggestions": "none"
+// }
+
+{
+  // Auto-save (keep if you want it)
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+
+  // Completely disable suggestions
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.parameterHints.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+
+  // Disable autocomplete behaviors
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.snippetSuggestions": "none",
+
+  // Python-specific override (important!)
+  "[python]": {
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false
+  },
+  "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
+  "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------"
+}
