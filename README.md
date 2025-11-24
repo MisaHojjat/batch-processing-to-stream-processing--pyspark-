@@ -19,7 +19,7 @@ The project follows a **three-step ETL process**:
 2. **Processing and transformation**
    - Data is cleaned, transformed, and aggregated using PySpark.
 3. **Upload final output tables**
-   - Processed data is saved in `data/output/` for batch jobs or in streaming sinks for streaming jobs.
+   - Final Delta tables are stored in Databricks DBFS for further analytics.
 
 ## Development, Test and Production Environments
 
