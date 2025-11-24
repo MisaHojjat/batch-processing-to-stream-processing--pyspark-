@@ -1,6 +1,6 @@
 # Batch-Processing-to-Streaming-Processing
 
-There are times that building a new batch pipeline anticipated a strong possibility of needing to process data in real time in the future. In this case have to choose the most performant batch processing engine, as that will make it easier to adapt to streaming later. This project demonstrates batch and streaming data processing using PySpark. 
+There are times that building a new batch pipeline involves anticipating a strong possibility of needing to process data in real time in the future. In this case have to choose the most performant batch processing engine, as that will make it easier to adapt to streaming later. This project demonstrates batch and streaming data processing using PySpark. 
 1. **Word Count**
    - Batch: "batch_word_count.ipynb"
    - Text files for batch word count
