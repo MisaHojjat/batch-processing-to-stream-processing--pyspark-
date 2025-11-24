@@ -6,7 +6,8 @@ There are times that building a new batch pipeline anticipated a strong possibil
    - Text files for batch word count
      
 2. **Invoice Processing**
-   - Streaming: "streaming_invoice.ipynb"
+   - Streaming: "streaming_invoice.ipynb". Stream procesing like batch processing follow same steps to upload the source data into target table. In this project used stream Query: It's a checking query to track the source data or file.
+     
    - JSON files for streaming customers invoice datasets
 
 ## ETL Workflow
