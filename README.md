@@ -1,7 +1,6 @@
 # Batch-Processing-to-Streaming-Processing
 
-This project demonstrates batch and streaming data processing using PySpark.
-
+This project demonstrates batch and streaming data processing using PySpark. 
 1. **Word Count**
    - Batch: `batch_word_count.ipynb`
    - Text files for batch word count
